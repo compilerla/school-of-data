@@ -1,0 +1,15 @@
+---
+title: Dreams
+subtitle: Website Design
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: dreams.png
+thumbnail: dreams-thumbnail.png
+alt: image-alt
+project-date: December 2017
+client: Housing Authority of the County of Salt Lake
+category: Health & Human Services
+description: The goal of the Utah Housing Community Cloud pilot is to help housing locators in the state of Utah reduce the time-to-housing for qualifying service recipients through interoperable data services and a more supportive application ecosystem across Utah’s network of state and local housing agencies and service providers.
+
+---

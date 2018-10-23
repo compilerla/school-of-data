@@ -1,0 +1,7 @@
+# Team names, titles and social links
+- name: Matt Gee
+  pic: team-matt-gee.jpg
+  position: CEO
+  social:
+    - title: linkedin
+      url: "https://www.linkedin.com/in/matthewgee1/"
