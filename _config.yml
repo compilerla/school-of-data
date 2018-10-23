@@ -11,6 +11,20 @@ github:
 linkedin: 
 docs: 
 
+# Location Block
+locationBlockTitle: "Venue"
+eventLocationName: "Wilshire Grand Hotel"
+eventLocationLink: "http://www.wilshiregrandcenter.com/"
+eventStreetAddress: "900 Wilshire Blvd., Ste. 1700"
+eventAddressLocality: "Los Angeles, CA"
+eventAddressLocalityRegion: "USA"
+eventPostalCode: "90017"
+eventAddressCountry: "United States"
+eventStartTime: "2019-01-31T08:00"
+eventDoorTime: "08:00"
+eventEndTime: "2019-02-01T17:00"
+eventPlaceCoordinates: "34.0497172, -118.2628073"
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

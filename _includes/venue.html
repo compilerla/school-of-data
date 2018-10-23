@@ -1,10 +1,24 @@
 <!-- Venue Section -->
     <section id="venue"  class="bg-darkest-gray">
         <div class="container">
-            <div class="row">
+            <div class="school-color">
                 <div class="col-lg-12 text-center">
         			<h4 class="new-class text-muted">MAP HERE</h4>
         		</div>
+                <div class="col-lg-3 col-md-4 col-sm-6 location-description transbox">
+                    <h3>{{ site.locationBlockTitle }}</h3>
+                    <ul>
+                        {% if site.eventLocationName %}<li>{{ site.eventLocationName }}</li>{% endif %}
+                        <li>{{ site.eventStreetAddress }}</li>
+                        <li>{{ site.eventAddressLocality }}, {{ site.eventPostalCode }}</li>
+                        <a href="https://www.google.com/maps/place/Wilshire+Grand+Center/@34.0497172,-118.2628073,17z/data=!3m1!4b1!4m7!3m6!1s0x80c2c7b11cf18c59:0xf6804a862d87158!5m1!1s2018-11-18!8m2!3d34.0497172!4d-118.2606186?hl=en-US">View on Google Maps</a>
+                    </ul>
+                    <ul>
+                    	<li><strong>By Bike</strong> bike parking racks available on 7th Street.</li>
+                    	<li><strong>By Bus or Train</strong> 7th & Metro is 100ft across intersection, served by Blue Line, Expo Line, Purple Line, Red Lines and dozens of bus options.</li>
+                    	<li><strong>By Car</strong> Parking available in the gargage on site for $$, validation for attendees is not provided.</li>
+                    </ul>
+                </div>
         	</div>
         </div>
     </section>
