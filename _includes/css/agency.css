@@ -316,9 +316,8 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    /*background-image: url('{{ site.baseurl }}/img/olenka-kotyk-unsplash-los-angeles.jpg');*/
-    /*opacity: 0.3;*/
-    background-image: radial-gradient(#{{ site.data.template.school-color.four }}, #{{ site.data.template.school-color.three }}, #{{ site.data.template.school-color.two }}, #{{ site.data.template.school-color.one }}, #{{ site.data.template.school-color.five }});
+    background-image: url('{{ site.baseurl }}/img/olenka-kotyk-unsplash-los-angeles.jpg');
+    /*background-image: radial-gradient(#{{ site.data.template.school-color.four }}, #{{ site.data.template.school-color.three }}, #{{ site.data.template.school-color.two }}, #{{ site.data.template.school-color.one }}, #{{ site.data.template.school-color.five }});*/
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -326,6 +325,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
+
 
 header .intro-text {
     padding-top: 100px;
