@@ -1,29 +1,32 @@
 <!-- Venue Section -->
-    <section id="venue"  class="bg-darkest-gray">
+    <section id="venue"  class="bg-darkest-gray text-muted">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading text-muted">Venue</h2>
+                    <h2 class="section-heading">Venue</h2><br>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-6 location-description transbox">
+                <div class="col-lg-4">
                     <!--<h3>{{ site.locationBlockTitle }}</h3>-->
-                    <ul>
-                        {% if site.eventLocationName %}<li>{{ site.eventLocationName }}</li>{% endif %}
-                        <li>{{ site.eventStreetAddress }}</li>
-                        <li>{{ site.eventAddressLocality }}, {{ site.eventPostalCode }}</li>
-                        <a href="https://www.google.com/maps/place/Wilshire+Grand+Center/@34.0497172,-118.2628073,17z/data=!3m1!4b1!4m7!3m6!1s0x80c2c7b11cf18c59:0xf6804a862d87158!5m1!1s2018-11-18!8m2!3d34.0497172!4d-118.2606186?hl=en-US">View on Google Maps</a>
-                    </ul>
-                    <ul>
-                    	<li><strong>By Bike</strong> bike parking racks available on 7th Street.<br></li>
-                    	<li><strong>By Bus or Train</strong> 7th & Metro is 100ft across intersection, served by Blue Line, Expo Line, Purple Line, Red Lines and dozens of bus options.<br></li>
-                    	<li><strong>By Car</strong> Parking available in the gargage on site for $$, validation for attendees is not provided.</li>
-                    </ul>
+                    <h3>Location</h3>
+                    <p>
+                    <strong>{{ site.eventLocationName }}</strong><br>
+                    {{ site.eventStreetAddress }}<br>
+                    {{ site.eventAddressLocality }}, {{ site.eventPostalCode }}
+                    </p>
+                    
+                    <p><a href="https://goo.gl/maps/5XTysjqqQgG2">View on Google Maps</a></p>
+                    
+                    <h3>Getting There</h3>
+                    
+                    <p><strong>By Bike</strong> - The Metro Bike Share dock is one block away at 7th & Flower. Bike parking racks available on 7th Street.</p>
+                    <p><strong>By Train</strong> - The 7th & Metro Station is 100ft across the intersection and is served by the Blue, Expo, Purple, and Red Lines.</p>
+                    <p><strong>By Bus</strong> - A and F DASH buses stop at this intersection, while the B DASH stop is two blocks away at 7th & Hope.  Several Metro Bus lines stop here as well, including the Silver Line.</p>
+                    <p><strong>By Car</strong> Parking is available on-site in the garage for a fee. Parking validation for attendees will not be available.</p>
                 </div>
-                <div class="col-lg-6 transbox">
-                    <h3>Map</h3>
-        			<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1_j-PHmHjO7MG9oYu4dfWZ_SeBRRiL05z" width="360" height="300"></iframe>
+                <div class="col-lg-8">
+        			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d17148.37708277876!2d-118.26650516697312!3d34.04895137700397!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7b14c15e4f3%3A0xe52443a5499f522d!2sSouthern+California+Association+of+Governments!5e0!3m2!1sen!2sus!4v1547159682569" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
         	</div>
         </div>
