@@ -1,5 +1,6 @@
+# baseurl value changed from "/" to "" for the purposes of running on AWS Cloud9.
 url: https://compilerla.github.io
-baseurl: "/"
+baseurl: ""
 
 # Site settings
 title: School of Data LA
